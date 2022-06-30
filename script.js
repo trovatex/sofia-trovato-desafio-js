@@ -9,6 +9,6 @@ let intentos = 3
             intentos = intentos - 1
             alert(`Incorrecto, te quedan ${intentos} intentos`)
         } 
-    }while (numero %123 !== 0 || intentos > 0)
+    }while (intentos > 0)
 
 Console.log ("ingresaste 3 números válidos")
